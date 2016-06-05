@@ -5,7 +5,7 @@
 	<!-- springmvc前端控制器 -->
 	<servlet>
 		<servlet-name>springmvc</servlet-name>
-		<servlet-class>org.springframework.web.servlet.DispatcherServlet.class</servlet-class>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<!-- contextConfigLocation配置mvc加载的文件（配置处理器、映射器、适配器等等） -->
 		<!-- 如果不配置该参数，则默认加载的是／WEB-INF/servlet名称-servlet.xml(springmvc-servlet.xml) -->
 		<!-- 配置的原因就是为了将来整合更多框架的时候，对各个框架的配置文件进行分级管理，config文件夹下面可能有更多的子配置文件，分别管理各个框架 -->
